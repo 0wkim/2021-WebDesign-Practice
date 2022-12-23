@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>내집꾸미기</title>
+    <link rel="stylesheet" href="./resources/css/store.css">
+    <link rel="stylesheet" href="./resources/fontawesome/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- 헤더 영역 -->
+    <header>
+        <div id="logo-and-nav">
+            <div id="logo">
+              <a href="#"><img src="./resources/images/logo.png" alt="logo" title="logo"></a>
+            </div>
+
+            <div id="search">
+              <input type="text" placeholder="검색어를 입력하세요" class="search-text">
+              <button class="fa fa-search searchBtn"></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 비주얼 영역 -->
+    <section id="visual">
+      <img src="./resources/images/store-visual.jpg" alt="store-visual" title="store-visual">
+    </section>
+
+    <!-- 사이드 영역 -->
+    <section id="side-box">
+      <input type="checkbox" id="sideBtn">
+
+      <p id="side-menu">
+        <i class="fa fa-angle-left"></i>
+      </p>
+
+      <article id="side">
+        <div id="cart">
+          <h2>CART</h2>
+        </div>
+        <div id="drop" class="container">
+          <p>이곳에 상품을 넣어주세요.</p>
+        </div>
+      </article>
+    </section>
+    
+
+    <!-- 상품 리스트 영역 -->
+    <section id="products">
+      <h2>PRODUCTS</h2>
+      <div class="pro-list container">
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_1.jpg" alt="product_1" title="product_1">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">마틸라 &gt;</a></p>
+            <h3 class="title">마틸라</h3>
+            <p class="price">17,100<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_2.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">어라운드(A;ROUND) &gt;</a></p>
+            <h3 class="title">어라운드(A;ROUND)</h3>
+            <p class="price">19,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_3.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">누비지오 &gt;</a></p>
+            <h3 class="title">누비지오</h3>
+            <p class="price">12,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_4.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">지누스 &gt;</a></p>
+            <h3 class="title">지누스</h3>
+            <p class="price">139,000<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_5.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">히읗 &gt;</a></p>
+            <h3 class="title">히읗</h3>
+            <p class="price">9,800<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_6.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">플라팜 &gt;</a></p>
+            <h3 class="title">플라팜</h3>
+            <p class="price">19,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_7.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">룸앤홈 &gt;</a></p>
+            <h3 class="title">룸앤홈</h3>
+            <p class="price">15,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_8.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">미즌하임 &gt;</a></p>
+            <h3 class="title">미즌하임</h3>
+            <p class="price">59,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_9.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">우디크 &gt;</a></p>
+            <h3 class="title">우디크</h3>
+            <p class="price">1,380,000<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_10.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">가담다 &gt;</a></p>
+            <h3 class="title">가담다</h3>
+            <p class="price">26,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_11.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">창신리빙 &gt;</a></p>
+            <h3 class="title">창신리빙</h3>
+            <p class="price">9,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_12.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">레브 &gt;</a></p>
+            <h3 class="title">레브</h3>
+            <p class="price">65,000<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_13.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">타카타카 &gt;</a></p>
+            <h3 class="title">타카타카</h3>
+            <p class="price">24,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_14.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">더블유드레스룸 &gt;</a></p>
+            <h3 class="title">더블유드레스룸</h3>
+            <p class="price">16,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_15.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">레이디가구 &gt;</a></p>
+            <h3 class="title">레이디가구</h3>
+            <p class="price">49,900<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_16.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">레이디가구 &gt;</a></p>
+            <h3 class="title">레이디가구</h3>
+            <p class="price">139,000<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_17.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">아이코닉 &gt;</a></p>
+            <h3 class="title">아이코닉</h3>
+            <p class="price">15,300<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_18.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">로포텐 &gt;</a></p>
+            <h3 class="title">로포텐</h3>
+            <p class="price">218,000<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_19.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">락앤락 &gt;</a></p>
+            <h3 class="title">락앤락</h3>
+            <p class="price">11,600<span>원</span></p>
+          </div>
+        </div>
+        <div class="pro-item draggable">
+          <div class="pro-img">
+            <img src="./resources/images/상품사진/product_20.jpg" alt="" title="">
+          </div>
+          <div class="pro-text">
+            <p class="brand"><a href="#">세븐펫 &gt;</a></p>
+            <h3 class="title">세븐펫</h3>
+            <p class="price">15,900<span>원</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 푸터 영역 -->
+    <footer>
+      <span class="copyright">Copyright (C) 2020 by MyHome Inc All Rights Reserved.</span>
+    </footer>
+
+    <script src="./resources/js/jquery-3.4.1.min.js"></script>
+    <script src="./resources/js/store.js"></script>
+</body>
+</html>
